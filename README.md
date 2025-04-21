@@ -2,12 +2,10 @@
 
 这是一个基于Python的零售数据分析系统,用于分析零售交易数据,生成各类分析报告和可视化图表。
 
-
 ## 数据来源
 
 本项目使用的数据集来自 Kaggle:
 [Retail Transactions Dataset](https://www.kaggle.com/datasets/prasad22/retail-transactions-dataset/data)
-
 
 ## 功能特点
 
@@ -35,6 +33,7 @@
   - 商品销售排名图
   - 季节-商品类别热力图
   - 24小时销售分析图
+  - RFM特征相关性热力图
 
 ## 项目结构
 
@@ -63,8 +62,6 @@ RetailAnalysis/
 └── run_analysis.py        # 项目启动脚本，检查依赖并运行主分析程序
 ```
 
-
-
 ## 环境要求
 
 - Python 3.12
@@ -77,8 +74,6 @@ RetailAnalysis/
   - networkx >= 2.6.0
   - scikit-learn >= 0.24.0
   - wordcloud >= 1.8.0
-
-
 
 ## 安装使用
 
@@ -111,8 +106,6 @@ python run_analysis.py
 - 可视化图表保存在 `output/figures` 目录
 - 运行日志保存在 `logs` 目录
 
-
-
 ## 数据要求
 
 输入数据集需要包含以下字段:
@@ -122,8 +115,6 @@ python run_analysis.py
 - Product: 商品列表
 - Total_Items: 商品总数
 - Total_Cost: 交易总金额
-
-
 
 ## 主要功能模块
 
@@ -155,8 +146,6 @@ python run_analysis.py
 - 数据可视化
 - 图表生成
 
-
-
 ## 注意事项
 
 1. 数据文件大小限制:
@@ -172,13 +161,9 @@ python run_analysis.py
    - 完整分析过程约需5-10分钟
    - 可视化渲染约需2-3分钟
 
-
-
 ## 维护者
 
 [@https://github.com/aoxing5](https://github.com/yourusername)
-
-
 
 ## 许可证
 
