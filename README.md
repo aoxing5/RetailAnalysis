@@ -10,17 +10,14 @@
 ## 功能特点
 
 - 基础数据分析
-
   - 交易基本信息统计
   - 商品销售分析
   - 客户购买行为分析
 - 高级分析
-
   - RFM客户分群分析
   - 购物篮分析
   - 商品关联规则挖掘
 - 可视化分析
-
   - 商品价格与销量关系散点图
   - 商品价格分布直方图
   - 季节销售趋势图
@@ -168,3 +165,26 @@ python run_analysis.py
 ## 许可证
 
 [MIT](LICENSE) © aoxing5
+
+## 可视化结果
+
+### 基础分析图表
+![商品价格与销量关系散点图](output/figures/price_quantity_scatter.png)
+![商品价格分布直方图](output/figures/price_distribution_histogram.png)
+![RFM特征相关性热力图](output/figures/rfm_correlation.png)
+
+### 时间序列分析
+![季节销售趋势图](output/figures/seasonal_trends.png)
+![月度销售趋势图](output/figures/monthly_trends.png)
+![24小时销售分析](output/figures/hourly_sales.png)
+
+### 商品分析
+![热门商品词云图](output/figures/product_wordcloud.png)
+![商品销售排名图](output/figures/product_trends.png)
+![商品类别销售分析](output/figures/category_comparison.png)
+![季节-商品类别热力图](output/figures/seasonal_category_heatmap.png)
+
+### 交易分析
+![交易金额散点图](output/figures/transaction_scatter.png)
+![购物篮分析热力图](output/figures/basket_analysis_heatmap.png)
+![客户消费词云图](output/figures/customer_wordcloud.png)
